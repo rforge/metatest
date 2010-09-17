@@ -1,0 +1,2 @@
+
+Package metatest fits meta regression models and generates a number of statistics: next to t- and z-tests, the likelihood ratio, bartlett corrected likelihood ratio and permutation tests are performed on the model coefficients.

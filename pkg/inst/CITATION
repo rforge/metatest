@@ -1,0 +1,16 @@
+citHeader("To cite metatest in publications use:")
+
+citEntry(entry = "Article",
+  title        = "Hypothesis testing in random effects meta-regression",
+  author       = personList(as.person("Hilde M. Huizenga"),
+                   as.person("Ingmar Visser"), as.person("Conor V. Dolan")),
+  journal      = "British journal of mathematical and statistical psychology",
+  year         = "In press",
+
+  textVersion  =
+  paste("Hilde M. Huizenga, Ingmar Visser & Conor V. Dolan.",
+        "Hypothesis testing in random effects meta-regression.",
+        "British journal of mathematical and statistical psychology.",
+        "In press.")
+)
+

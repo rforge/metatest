@@ -1,0 +1,5 @@
+
+The metatest package fits meta regression models and computes various statistics to test
+the significance of the coefficients.
+
+First version released on CRAN: 1.0-0
