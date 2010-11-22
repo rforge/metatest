@@ -16,8 +16,16 @@ Small example data set used in the example on the metatest help page.
 }
 
 \source{
-Data were randomly generated.
+Data were randomly generated following an example in Huizenga et al (2010)
+below.
 }
+
+\references{
+	Hilde M. Huizenga, Ingmar Visser & Conor V. Dolan (2010). Hypothesis
+	testing in random effects meta-regression, British Journal of
+	Mathematical and Statistical Psychology, in press.
+}
+
 \examples{
 data(metadata)
 metadata

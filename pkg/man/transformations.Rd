@@ -1,9 +1,12 @@
 \name{transformations}
 
+\alias{transformations}
+
 \alias{r2z}
 \alias{z2r}
 \alias{z2d}
 \alias{r2d}
+
 \title{
 	Transform effect sizes.
 }
@@ -24,14 +27,14 @@ z2d(z)
 }
 \details{
 Transform effect sizes into correlations, (Cohen's) d effect sizes, or z-distributed 
-for performind meta regression.
+for performing meta regression.
 }
 \value{
 Return values are z, d or r values. 
 }
 \references{Tba}
 \author{
-	Ingmar Visser
+	Ingmar Visser. 
 }
 
 \examples{

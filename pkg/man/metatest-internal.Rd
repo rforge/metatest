@@ -19,6 +19,6 @@
 
 }
 
-\author{Ingmar Visser}
+\author{Hilde Huizenga}
 
 \keyword{internal}
