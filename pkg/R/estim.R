@@ -2,6 +2,8 @@ estim <-
 function(y, x, v, threshold=0.00001, maxiter=100) {
 	
 	# ML estimation derived form Viechtbauer code
+	# RETURNS: sigmasqn, the between study variance, the number of iterations,
+	# and the convergence flag
 	change <- 1.0
 	iter <- 0
 	sigmasq <- 0
@@ -26,7 +28,7 @@ function(y, x, v, threshold=0.00001, maxiter=100) {
 			hlp=      t(((y)^2 )-v) %*% wsq
 		}
 		
-# 		b=        (solve(t(x) %*% w %*% x)) %*% t(x) %*% w %*% y
+		# b =  (solve(t(x) %*% w %*% x)) %*% t(x) %*% w %*% y
 		
 		sigmasqn= (sum(hlp)/sum(diag(wsq)) ) # ML
 		change=   abs(sigmasqn - sigmasq)
