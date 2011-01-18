@@ -69,7 +69,7 @@ function(y, x, v, threshold=0.00001, maxiter=100, npermut=1000) {
  	b_f= (solve(t(xx) %*% wstore %*% xx)) %*% t(xx) %*% wstore %*% y
  	ll_f=sum(log(v))+sum(((y-(xx %*% b_f))^2)/v)
  	lldif_f=ll_f-ll[1]
- 	llpval_f=(0.5)*pchisq(lldif_f, 1, lower.tail = FALSE)
+ 	llpval_f=pchisq(lldif_f, 1, lower.tail = FALSE)
  	varmat=cbind(sigmasq,lldif_f,1,llpval_f) 
 	
 	## z method: pvalue

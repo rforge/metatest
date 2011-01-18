@@ -1,4 +1,10 @@
 
 The metatest package fits meta regression models and computes various statistics to test the significance of the coefficients.
 
+Changes in version 1.0-1
+
+  o Fixed a bug in the p-value of the test of the significance of the 
+    likelihood ratio test of the between studies variance (which was 
+    inadvertently divided by 2). 
+
 First version released on CRAN: 1.0-0
