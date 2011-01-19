@@ -4,7 +4,15 @@ The metatest package fits meta regression models and computes various statistics
 Changes in version 1.0-1
 
   o Fixed a bug in the p-value of the test of the significance of the 
-    likelihood ratio test of the between studies variance (which was 
-    inadvertently divided by 2). 
+    likelihood ratio test of the between studies variance which is by
+    default divided by 2 (as perBerkhof & Snijders, 2001), which led to 
+    odd results (ie p-value of 0.5) when the ratio is zero. This has now 
+    been set to the value of 1.
+
+    Berkhof, J., Snijders, T. A. B. (2001). Variance Component Testing in
+    Multilevel Models. Journal of Educational and Behavioral Statistics, 
+    26(2): 133-152. 
+    Available at: http://jeb.sagepub.com/cgi/doi/10.3102/10769986026002133 
+    [Accessed January 19, 2011].
 
 First version released on CRAN: 1.0-0

@@ -77,7 +77,7 @@ with the following elements:
 	\item{iter }{Number of iterations used in optimizing the parameters.}
 
 	\item{variance }{Matrix with between study variance estimate, its associated log
-	likelihood ratio statistic, df and p-value. }	
+	likelihood ratio statistic, df and p-value. } 
 	
 	\item{coefficients }{Estimated coefficients.}
 	\item{se }{Standard errors of the coefficients.}
