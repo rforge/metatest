@@ -22,8 +22,8 @@ below.
 
 \references{
 	Hilde M. Huizenga, Ingmar Visser & Conor V. Dolan (2011). Hypothesis
-	testing in random effects meta-regression, British Journal of
-	Mathematical and Statistical Psychology, 64, 1-19.
+	testing in random effects meta-regression, \emph{British Journal of
+	Mathematical and Statistical Psychology}, 64, 1-19.
 }
 
 \examples{
