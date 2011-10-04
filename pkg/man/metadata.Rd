@@ -16,14 +16,14 @@ Small example data set used in the example on the metatest help page.
 }
 
 \source{
-Data were randomly generated following an example in Huizenga et al (2010)
+Data were randomly generated following an example in Huizenga et al (2011)
 below.
 }
 
 \references{
-	Hilde M. Huizenga, Ingmar Visser & Conor V. Dolan (2010). Hypothesis
+	Hilde M. Huizenga, Ingmar Visser & Conor V. Dolan (2011). Hypothesis
 	testing in random effects meta-regression, British Journal of
-	Mathematical and Statistical Psychology, in press.
+	Mathematical and Statistical Psychology, 64, 1-19.
 }
 
 \examples{

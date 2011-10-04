@@ -1,8 +1,8 @@
 Package: metatest
 Type: Package
 Title: Fit and test metaregression models
-Version: 1.0-1
-Date: 2011-01-18
+Version: 1.0-2
+Date: 2011-10-04
 Author: Hilde M. Huizenga & Ingmar Visser
 Maintainer: Ingmar Visser <i.visser@uva.nl>
 Description: This package fits meta regression models and generates a

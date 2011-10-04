@@ -24,8 +24,8 @@
 	\tabular{ll}{
 	Package: \tab metatest\cr
 	Type: \tab Package\cr
-	Version: \tab 1.0\cr
-	Date: \tab 2010-11-22\cr
+	Version: \tab 1.0-2\cr
+	Date: \tab 2011-10-04\cr
 	License: \tab GPL\cr
 	LazyLoad: \tab yes\cr
 	}
@@ -38,9 +38,9 @@
 }
 
 \references{
-	Hilde M. Huizenga, Ingmar Visser & Conor V. Dolan (2010). Hypothesis
+	Hilde M. Huizenga, Ingmar Visser & Conor V. Dolan (2011). Hypothesis
 	testing in random effects meta-regression, British Journal of
-	Mathematical and Statistical Psychology, in press.
+	Mathematical and Statistical Psychology, 64, 1-19.
 }
 
 \keyword{ htest }

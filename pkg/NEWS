@@ -1,11 +1,15 @@
 
 The metatest package fits meta regression models and computes various statistics to test the significance of the coefficients.
 
+Changes in version 1.0-2
+  o Updated the reference to our paper which has appeared in the British 
+    Journal of Mathematical and Statistical Psychology.
+
 Changes in version 1.0-1
 
   o Fixed a bug in the p-value of the test of the significance of the 
     likelihood ratio test of the between studies variance which is by
-    default divided by 2 (as perBerkhof & Snijders, 2001), which led to 
+    default divided by 2 (as per Berkhof & Snijders, 2001), which led to 
     odd results (ie p-value of 0.5) when the ratio is zero. This has now 
     been set to the value of 1.
 
