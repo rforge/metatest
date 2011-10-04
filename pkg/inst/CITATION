@@ -7,7 +7,7 @@ citEntry(entry = "Article",
   journal      = "British journal of mathematical and statistical psychology",
   year         = "2011",
   volume       = "64",
-  pages        = "1-19".
+  pages        = "1-19",
 
   textVersion  =
   paste("Hilde M. Huizenga, Ingmar Visser & Conor V. Dolan (2011).",
