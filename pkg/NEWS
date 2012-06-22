@@ -1,6 +1,11 @@
 
 The metatest package fits meta regression models and computes various statistics to test the significance of the coefficients.
 
+Changes in version 1.0-3
+  o Fixed a bug in the degrees of freedom for the t-test (was n-1, now is 
+		n-ncol(x), where x is the design matrix). Note that the Huizenga et al 
+		paper also contains this error. 
+
 Changes in version 1.0-2
   o Updated the reference to our paper which has appeared in the British 
     Journal of Mathematical and Statistical Psychology.

@@ -76,12 +76,12 @@ function(y, x, v, threshold=0.00001, maxiter=100, npermut=1000) {
 	pz=pnorm(abs(tval),lower.tail = FALSE, log.p = FALSE)*2	            # two sided
 	
 	## t method: pvalue
-	ptd=pt(abs(tval), (n-1), lower.tail = FALSE, log.p = FALSE)*2	    # two sided	
+	ptd=pt(abs(tval), (n-p), lower.tail = FALSE, log.p = FALSE)*2	    # two sided	
 	
 	outp=list(convergence=aa[3],iter=iter, 
 		coefficients=bstore, se=se, tval=tval, 
 		pLLR=pll, pBartlett=pllb, pZtest=pz, pttest=ptd, ppermtest=pp, 
-		LLR=lldif, bartLLR=lldifb, bartscale=scalfact, dfttest=n-1,
+		LLR=lldif, bartLLR=lldifb, bartscale=scalfact, dfttest=n-p,
 		variance=varmat)
 		
 	return(outp)
