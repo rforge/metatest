@@ -23,8 +23,8 @@ function(b,y,x,v,residual,xx,tval,npermut,itar,treshold,maxiter){
 		
 	}
 	
-	if(tval>=0) pval =length(which(as.real(tp) >= as.real(tval)))/npermut
-	if(tval<0) pval = length(which(as.real(tp) <  as.real(tval)))/npermut
+	if(tval>=0) pval = length(which(as.double(tp) >= as.double(tval)))/npermut
+	if(tval<0) pval = length(which(as.double(tp) <  as.double(tval)))/npermut
 	
 	return(pval)
 }

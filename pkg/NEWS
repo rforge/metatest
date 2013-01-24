@@ -1,6 +1,9 @@
 
 The metatest package fits meta regression models and computes various statistics to test the significance of the coefficients.
 
+Changes in version 1.0-4
+  o Replaced calls to as.real (soon to be deprecated) by as.double. 
+
 Changes in version 1.0-3
   o Fixed a bug in the degrees of freedom for the t-test (was n-1, now is 
 		n-ncol(x), where x is the design matrix). Note that the Huizenga et al 

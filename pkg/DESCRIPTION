@@ -1,12 +1,12 @@
 Package: metatest
 Type: Package
 Title: Fit and test metaregression models
-Version: 1.0-3
-Date: 2012-06-22
+Version: 1.0-4
+Date: 2013-01-24
 Author: Hilde M. Huizenga & Ingmar Visser
 Maintainer: Ingmar Visser <i.visser@uva.nl>
 Description: This package fits meta regression models and generates a
 number of statistics: next to t- and z-tests, the likelihood ratio, bartlett corrected likelihood ratio and permutation tests are performed on the model coefficients.
-Depends: R (>= 2.14.0)
+Depends: R (>= 2.15.2)
 License: GPL
 LazyLoad: yes
