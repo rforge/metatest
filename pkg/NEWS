@@ -1,6 +1,9 @@
 
 The metatest package fits meta regression models and computes various statistics to test the significance of the coefficients.
 
+Changes in version 1.0-5
+  o Added registration of S3 methods. 
+
 Changes in version 1.0-4
   o Replaced calls to as.real (soon to be deprecated) by as.double. 
 
